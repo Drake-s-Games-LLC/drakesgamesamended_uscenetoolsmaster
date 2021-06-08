@@ -1,0 +1,100 @@
+Button {
+    background-image: resource("Textures/background");
+    -unity-slice-left: 4;
+    -unity-slice-right: 4;
+    -unity-slice-top: 4;
+    -unity-slice-bottom: 4;
+    -unity-background-image-tint-color: #EBEBEB;
+    margin-left: 2;
+    margin-right: 2;
+    margin-top: 2;
+    margin-bottom: 2;
+}
+
+Button:hover {
+    -unity-background-image-tint-color: #B9B9B9;
+}
+
+ActiveScenesWidget {
+    background-image: resource("Textures/background");
+    margin-top: 4;
+    margin-bottom: 4;
+    -unity-slice-left: 4;
+    -unity-slice-right: 4;
+    -unity-slice-top: 4;
+    -unity-slice-bottom: 4;
+}
+
+SceneGroupListWidget {
+    background-image: resource("Textures/background");
+    margin-top: 4;
+    margin-bottom: 4;
+    -unity-slice-left: 4;
+    -unity-slice-right: 4;
+    -unity-slice-top: 4;
+    -unity-slice-bottom: 4;
+}
+
+#button-delete {
+    width : 19;
+    -unity-background-image-tint-color: #FF4D4D;
+}
+
+#button-load {
+    width: 60;
+    -unity-background-image-tint-color: #84E796;
+}
+
+#button-load:hover {
+    -unity-background-image-tint-color: #B9B9B9;
+}
+
+#button-row {
+    flex-direction: row;
+    margin-left: 2;
+    margin-right: 2;
+}
+
+#button-scenegroup {
+    flex-grow: 1;
+}
+
+#button-scenegroup.scenegroup-expanded {
+    -unity-background-image-tint-color: #B9B9B9;
+}
+
+#button-sort {
+    width: 85;
+    -unity-background-image-tint-color: #F6CB8A;
+}
+
+#group-list-title {
+    background-image: resource("Textures/background-heading");
+    flex-direction:row;
+    background-color: #969696;
+    margin-bottom: 4;
+    -unity-slice-left: 4;
+    -unity-slice-right: 4;
+    -unity-slice-top: 4;
+    -unity-background-image-tint-color: #969696;
+}
+
+#imgui {
+    margin-left: 4;
+    margin-right: 4;
+    padding-bottom: 4;
+}
+
+#inspector-heading {
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+    -unity-font-style: bold;
+}
+
+.main-scene {
+    -unity-font-style: bold;
+}
+
+*.scenegroup-expanded {
+    background-color: #B9B9B9;
+}

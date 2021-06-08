@@ -1,0 +1,8 @@
+{
+  "name":        "com.initialprefabs.additivescenes",
+  "author":      "Jay Suong / initialPrefabs",
+  "displayName": "Additive Scene Groups",
+  "version":     "1.0.1",
+  "unity":       "2019.1",
+  "description": "Set based workflow to manage scenes in Unity"
+}
